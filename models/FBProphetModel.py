@@ -11,12 +11,7 @@ class FBProphetModel:
         prophet_data = data.rename(columns={'TransactionDate': 'ds', 'GroupQuantity': 'y'})
 
         # Initialize Prophet model
-        m = Prophet( interval_width=0.95,
-    growth="flat",
-    seasonality_mode="multiplicative",
-    yearly_seasonality=False,
-    daily_seasonality=False,
-    weekly_seasonality=False,)
+        m = Prophet( interval_width=0.95)
         
 
         # Fit the Prophet model
