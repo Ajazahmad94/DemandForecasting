@@ -6,3 +6,10 @@ models/__pycache__/HoltWintersModel.cpython-311.pyc
 .vscode/settings.json
 models/__pycache__/FBProphetModel.cpython-310.pyc
 models/__pycache__/HoltWintersModel.cpython-310.pyc
+models/myModule/__pycache__/__init__.cpython-311.pyc
+models/myModule/__pycache__/dataAnalysis.cpython-311.pyc
+models/myModule/__pycache__/dateGeneration.cpython-311.pyc
+models/myModule/__pycache__/fileIO.cpython-311.pyc
+models/__pycache__/loadCsvExcelFile.cpython-311.pyc
+models/__pycache__/myFunctions.cpython-311.pyc
+Data/sampledata.csv
