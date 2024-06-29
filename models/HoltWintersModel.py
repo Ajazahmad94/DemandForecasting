@@ -6,7 +6,7 @@ class HoltWintersModel:
     def train_and_forecast(self, data):
 
         # Fit the Exponential Smoothing model
-        model_hw = ExponentialSmoothing(data['GroupQuantity'], seasonal='add', seasonal_periods=12)
+        model_hw = ExponentialSmoothing(data['y'], seasonal='add', seasonal_periods=12)
         trained_hw = model_hw.fit()
 
         # Forecast for the next 30 days

@@ -19,7 +19,7 @@ class ARIMAModel:
         order = (p, d, q)
         seasonal_order = (P, D, Q, s)       
 
-        model_sarima = SARIMAX(data['GroupQuantity'], order=order, seasonal_order=seasonal_order)
+        model_sarima = SARIMAX(data['y'], order=order, seasonal_order=seasonal_order)
 
         # Fit the SARIMA model
         trained_sarima = model_sarima.fit()

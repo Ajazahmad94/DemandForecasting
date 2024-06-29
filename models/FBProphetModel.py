@@ -8,7 +8,7 @@ class FBProphetModel:
 
  
         # Prepare the data for Prophet
-        prophet_data = data.rename(columns={'TransactionDate': 'ds', 'GroupQuantity': 'y'})
+        prophet_data = data.rename(columns={'ds': 'ds', 'y': 'y'})
 
         # Initialize Prophet model
         m = Prophet( interval_width=0.95)
